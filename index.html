@@ -1,0 +1,50 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Feedback Form</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="feedback-container">
+            <h1>Give feedback</h1>
+            <p>Your thoughts are valuable in helping improve our products.</p>
+            <form class="feedback-form">
+                <textarea
+                    id="feedback-input"
+                    name="feedback"
+                    rows="4"
+                    placeholder="Let us know what’s on your mind"
+                ></textarea>
+                <div class="checkbox-group">
+                    <label for="contact-permission">
+                        <input
+                            type="checkbox"
+                            id="contact-permission"
+                            name="contact_permission"
+                        />
+                        <p>
+                            I may be contacted about this feedback. See our
+                            <a href="#" class="link">privacy policy</a>.
+                        </p>
+                    </label>
+                    <label for="join-research">
+                        <input
+                            type="checkbox"
+                            id="join-research"
+                            name="join_research"
+                        />
+                        <p>
+                            I'd like to help improve the products by joining the
+                            <a href="#" class="link">Research Group</a>.
+                        </p>
+                    </label>
+                </div>
+                <button type="submit">Send Feedback</button>
+            </form>
+        </div>
+    </body>
+</html>
